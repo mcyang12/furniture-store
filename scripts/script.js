@@ -29,3 +29,24 @@ function displaySalesBreakdown(salesArray){
     breakdownElement.appendChild(list);
 
 }
+
+class FurnitureItems {
+    constructor(name, category, price){
+        this.name = name;
+        this.category = category;
+        this.price = price;
+    }
+    displayInfo(){
+        return `${this.name}, Category: ${this.category}, Price: ${this.price}`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    const displayArrayAsList = (array, elementID) => {
+        const listElement = document.getElementById(elementID);
+        listELement.innerHTML = '';
+
+    }
+
+})
